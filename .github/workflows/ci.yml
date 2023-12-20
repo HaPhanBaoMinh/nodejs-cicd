@@ -21,4 +21,4 @@ jobs:
     - name: Build the Docker image
       run: docker build -t baominh/nodejs-ci-cd .
     - name: Push to Dockerhub
-      run: docker pushbaominh/nodejs-ci-cd:latest
+      run: docker push baominh/nodejs-ci-cd:latest
